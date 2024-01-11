@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+footer{
+    height: 33em;
+    width: 100vw;
+    background-color: #000;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.titleCopy h1{
+    color: #fff;
+    font-family: 'Roboto';
+    padding-top: 0.5em;
+}
+
+.titleCopy hr{
+    display: none;
+    
+}
+
+svg{
+    color: #fff;
+    width: 2em;
+    height: 3em;
+}
+
+.mainFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0.5em;
+}
+
+.whatsapp{
+    margin-top: 1em;
+}
+.icons hr{
+    width: 20em;
+    color: #fff;
+    margin-left: 1em;
+}
+
+.mainFooter hr{
+    width: 20em;
+    color: #fff;
+}
+
+.icon{
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .copy{
+    font-family: 'Roboto';
+    font-size: 13px;
+  }
+
+
+  /* tablet*/
+  @media (min-width: 576px) and (max-width:1024px){ 
+
+    footer{
+        height: 22em;
+    }
+
+    .titleCopy{
+        font-size: 5px;
+    }
+   
+    .titleCopy hr{
+        display: flex;
+        width: 90vw;
+        margin-left: 35px;
+        margin-right: 35px;
+        color: #fff;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .icons hr{display: none;}
+
+    .whatsapp{
+      margin-top: 0.5em;
+      margin-left: 1em;
+    }
+
+    .whatsapp h4{
+        font-size: 15px;
+    }
+
+    .whatsapp a:hover{
+        color: green;
+    }
+    
+    .adress{
+        margin-top: 0.8em;
+        margin-right: 5em;
+        margin-left: 3em;
+    }
+
+    .adress h4{
+        font-size: 15px;
+        
+    }
+    .adress h4{
+        margin-bottom: 0;
+    }
+    .email{
+        margin-top: 0.8em;
+        margin-right: 5em;
+    }
+
+    .email h4{
+        font-size: 15px;
+    }
+    .email h4{
+        margin-bottom: 0;
+    }
+
+    .mainFooter h2{
+        margin-bottom: 0.5em;
+        
+    }
+    .mainFooter hr{
+        margin-left: 35px;
+        margin-right: 35px;
+        width: 45em;
+        color: #fff;
+    } 
+
+    #git:hover{
+        color: grey !important;
+    }
+    
+  }
+
+  /* desktop */
+  @media (min-width: 1024px){
+    footer{
+        height: 22em;
+    }
+
+    .titleCopy{
+        font-size: 5px;
+    }
+
+    .titleCopy hr{
+        display: flex;
+        margin-left: 35px;
+        margin-right: 35px;
+        color: #fff;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .icons hr{display: none;}
+
+    .whatsapp{
+      margin-top: 0.5em;
+    }
+
+    .whatsapp h4{
+        font-size: 15px;
+    }
+
+    .whatsapp a:hover{
+        color: green;
+    }
+    
+    .adress{
+        margin-top: 0.8em;
+        margin-right: 9em;
+        margin-left: 8em;
+    }
+
+    .adress h4{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .email{
+        margin-top: 0.8em;
+        margin-right: 5em;
+    }
+
+    .email h4{
+        font-size: 15px;
+    }
+    .email h4{
+        margin-bottom: 0;
+    }
+
+    .mainFooter h2{
+        margin-bottom: 0.5em;
+        
+    }
+    .mainFooter hr{
+        margin-left: 35px;
+        margin-right: 35px;
+        width: 75em;
+        color: #fff;
+    } 
+
+    #git:hover{
+        color: grey !important;
+    }
+  }
